@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hadder{
+    background-color: #fff3de;
+    height: 188px;
+}
+.menu{
+    position: absolute;
+    top: 145px;
+    left: 40%;
+    font-size: 20px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 23px;
+}
+.menu ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: rgb(122, 122, 122);
+}
+.logo img{
+    height: 111px;
+    position: absolute;
+    left: 51px;
+    top: 23px;
+}
+.menu-text{
+    position: absolute;
+    left: 276px;
+    top: 61px;
+}
+.slider{
+    width: 100%;
+    height: 90%;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+#slide{
+    width: 100%;
+    display: inline-flex;
+    transition: 0.7s;
+}
+#slide img{
+    width: 100%;
+    height: 100%;
+}
+.indicator{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+.indicator span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(122, 122, 122);
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background: darkblue;
+}
+footer ul{
+    display:inline-block;
+    list-style-type: none;
+}
+footer ul li{
+    padding: 8px;
+}
+footer ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: teal;
+}
+.first{
+    position: absolute;
+    left: 208px;
+    margin-top: 83px;
+}
+.second{
+    position: absolute;
+    left: 608px;
+    margin-top: 83px;
+}
+.three{
+    position: absolute;
+    left: 988px;
+    margin-top: 83px;
+}
+.developer{
+    position: absolute;
+    color: wheat;
+    font-size: 25px;
+    margin-top: 354px;
+    left: 450px;
+}
+.inp{
+    padding: 12px;
+    width: 395px;
+}
+#btn{
+    padding: 14px;
+}
+#btn:hover{
+    color:teal;
+    cursor: pointer;
+}
+table{
+    width: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-admin{
+    position: absolute;
+    top: 146px;
+    left: 82px;
+    font-size: 18px;
+}
+.menu-admin ul{
+    list-style-type: none;
+}
+.menu-admin ul li{
+    float: left;
+    padding: -2px;
+    width: 160px;
+    background-color: #fff3de;
+    opacity: 0.8;
+}
+.menu-admin ul li:hover>ul{
+    display: block;
+}
+.menu-admin ul li:hover{
+    background-color: rgb(184, 189, 204);
+}
+.menu-admin ul li ul{
+    display: none;
+}
+.menu-admin ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 37px;
+    text-align: center;
+}
+.menu-admin ul li a:hover{
+    color: black;
+}
+

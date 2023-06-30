@@ -1,0 +1,587 @@
+/*
+Crafted and Designed By DesignDrastic
+Author: DesignDrastic
+Author URL: http://designdrastic.com
+License URL: http://designdrastic.com/license
+*/
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar-default
+{
+    border-top: 2px solid #639a67;
+    border-bottom: none;
+    background: #205d67;
+}
+
+#bs-menu ul li a
+{
+    color: #fff;
+}
+
+.home-slider > .carousel-inner > .item > a > img,
+.home-slider > .carousel-inner > .item > img
+{
+    width: 100%;
+    max-height: 400px;
+    padding-top: 50px;
+}
+.home-slider .left-aerrow,
+.home-slider .right-aerrow
+{
+    background: none;
+}
+
+.box
+{
+    height: auto;
+
+    background: #205d67;
+}
+
+.heading
+{
+    padding: 20px 0 10px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+    border-bottom: 1px solid #639a67;
+}
+
+.para
+{
+    padding: 0 30px 0 30px;
+
+    text-align: justify;
+
+    color: #fff;
+}
+
+.box button
+{
+    font-size: 15px;
+
+    margin: 30px 0 20px 0;
+    padding: 8px 20px 8px 20px;
+
+    transition-duration: 1s;
+    text-transform: capitalize;
+
+    color: #000;
+    border-radius: 0;
+    background: #d9bf77;
+}
+
+.box button:hover
+{
+    color: #000;
+    background: #639a67;
+}
+
+.home
+{
+    padding-bottom: 30px;
+}
+
+.abot
+{
+    padding-bottom: 50px;
+
+    background: #ddd;
+}
+
+.title
+{
+    font-size: 50px;
+    font-weight: 500;
+
+    position: relative;
+
+    padding-top: 10px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #205d67;
+}
+
+.title:after
+{
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    left: 0;
+
+    width: 80px;
+    height: 4px;
+    margin: 0 auto;
+
+    content: '';
+
+    background: #639a67;
+}
+
+.page-about p
+{
+    font-size: 15px;
+
+    padding-bottom: 30px;
+
+    text-align: justify;
+
+    color: #3a4750;
+}
+
+.desc
+{
+    padding-top: 30px;
+}
+
+.page-about .btn-primary
+{
+    font-size: 15px;
+
+    margin-top: 40px;
+    padding: 8px 30px 8px 30px;
+
+    transition-duration: 1s;
+
+    border: none;
+    border-radius: 0;
+    background: #0c3c60;
+}
+
+.page-about .btn-primary:hover
+{
+    background: #214e6f;
+}
+
+.media
+{
+    position: relative;
+
+    height: auto;
+    min-height: 250px;
+    margin-bottom: 20px;
+    padding-top: 1px;
+
+    border-right: 1px solid #639a67;
+    border-left: 1px solid #205d67;
+    background: #fff;
+    background-image: linear-gradient(to right, #205d67 0%, #639a67 100%), linear-gradient(to right, #205d67 0%, #639a67 100%);
+    background-repeat: no-repeat;
+    background-position: 0 0, 0 100% ;
+    background-size: 100% 1px;
+}
+.media-heading
+{
+    color: #fff;
+}
+.media-body
+{
+    position: absolute;
+    top: 1px;
+    left: -2px;
+
+    height: 120px;
+    padding: 22px 20px 10px 20px;
+    padding-right: 20px;
+
+    color: #000;
+    background: #205d67;
+}
+.media-detail
+{
+    padding: 20px 15px 0 15px;
+}
+.desc
+{
+    font-size: 15px;
+
+    text-align: justify;
+
+    color: #205d67;
+}
+.srvc-thumb .thumbnail
+{
+    margin: 20px 0 40px 0;
+
+    border: 1px solid #bbb;
+    border-radius: 0;
+    background: none;
+}
+
+.srvc-thumb .thumbnail img
+{
+    width: 100%;
+    height: 200px;
+    padding: 0;
+}
+.title-cap
+{
+    font-size: 23px;
+
+    padding: 0 0 20px 0;
+}
+.srvc-thumb .caption
+{
+    height: auto;
+
+    color: #205d67;
+}
+.txt-cap
+{
+    font-size: 14px;
+}
+.cap-btn
+{
+    font-size: 16px;
+
+    margin-top: 20px;
+    padding: 8px 20px 8px 20px;
+
+    border-radius: 0;
+}
+
+.cap-btn
+{
+    margin: 0;
+
+    cursor: pointer;
+    transition: 1s;
+
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    background: #205d67;
+    box-shadow: 0 4px 0 #307782;
+}
+.cap-btn:active
+{
+    transform: translateY(3px);
+
+    box-shadow: 0 2px 0 #205d67;
+}
+.cap-btn:hover
+{
+    border: none;
+    outline: none;
+    background: #0e343a;
+}
+.project-portfolio
+{
+    background: #ddd;
+}
+.filter-button
+{
+    font-size: 16px;
+
+    margin-bottom: 3px;
+
+    color: #205d67;
+    border: none;
+    border-radius: 0;
+    background: #d9bf77;
+}
+.project-button .active
+{
+    text-decoration: none;
+
+    color: #fff;
+    background: #205d67;
+}
+.project
+{
+    padding-top: 30px;
+}
+.project .thumbnail
+{
+    background: none;
+}
+.project .thumbnail img
+{
+    width: 100%;
+    height: 170px;
+
+    transition-duration: 1s;
+}
+.project .thumbnail img:hover
+{
+    transform: scale(1.1);
+}
+.project-button
+{
+    padding-bottom: 30px;
+}
+.client-page
+{
+    padding: 10px 0 30px 0;
+}
+.clnt-intro img
+{
+    padding: 30px 0 0 0;
+}
+.clnt-slider .carousel
+{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.clnt-slider .carousel-indicators > li
+{
+    border: none;
+    background-color: #205d67;
+}
+.clnt-slider .bquote
+{
+    font-size: 15px;
+    font-style: italic;
+
+    position: relative;
+
+    min-height: 120px;
+    padding-top: 25px;
+
+    color: #fff;
+    background: #205d67;
+}
+.clnt-slider .fa
+{
+    font-style: italic;
+
+    color: #ccc;
+}
+.nm-clnt
+{
+    padding-top: 0;
+
+    color: #205d67;
+}
+.clnt-slider .arrowdown
+{
+    position: absolute;
+    right: 50%;
+    bottom: -10px;
+    left: 50%;
+
+    width: 0;
+    height: 0;
+
+    text-align: center;
+
+    border-top: 10px solid #205d67;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+.cont
+{
+    background: #205d67;
+}
+
+.cont h2
+{
+    font-size: 50px;
+    font-weight: 500;
+
+    padding-top: 50px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.con-map
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ct-frm
+{
+    padding-top: 30px;
+}
+
+.adrs-ft
+{
+    font-size: 16px;
+
+    display: block;
+
+    padding-top: 25px;
+
+    word-spacing: 3px;
+
+    color: #fff;
+}
+
+.social-ft
+{
+    padding-top: 20px;
+}
+
+.social-ft .fa
+{
+    font-size: 17px;
+    line-height: 35px;
+
+    width: 35px;
+    height: 35px;
+
+    text-align: center;
+
+    color: #111;
+    border: none;
+    border-radius: 20px;
+    background: #639a67;
+}
+
+.social-ft .fa:hover
+{
+    transition-duration: 1s;
+    transform: rotate(360deg);
+
+    border: none;
+    background: #d9bf77;
+}
+
+.frm-ft .input-group-addon,
+.form-control
+{
+    font-size: 15px;
+
+    height: 40px;
+
+    color: #fff;
+    border: 1px solid #d9bf77;
+    border-radius: 0;
+    background: #1a4e56;
+}
+.input-group .glyphicon
+{
+    color: gray;
+    border-left: none;
+}
+
+.messg
+{
+    padding-left: 10px;
+
+    color: #fff;
+    border: 1px solid #6ab4c7;
+    background: #113651;
+}
+
+.ft-btn
+{
+    padding: 8px 30px 8px 30px;
+
+    color: #000;
+    border: none;
+    border-radius: 0;
+    background: #d9bf77;
+}
+
+.ft-btn:hover
+{
+    color: #111;
+    background: #d9bf77;
+}
+
+.tx-copy
+{
+    padding: 10px 0 10px 0;
+
+    text-align: center;
+
+    color: #bcbcbc;
+    border-top: 1px solid #639a67;
+    background: #000;
+}
+
+@media (max-width: 480px)
+{
+    .carousel-inner > .item > a > img,
+    .carousel-inner > .item img
+    {
+        height: 210px;
+    }
+
+    .title
+    {
+        font-size: 35px;
+
+        padding-bottom: 10px;
+    }
+
+    .cont h2
+    {
+        font-size: 35px;
+
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .media-heading
+    {
+        font-size: 21px;
+        line-height: 25px;
+
+        position: absolute;
+        left: 7px;
+
+        width: 160px;
+        padding-top: 5px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 767px)
+{
+    .box
+    {
+        float: left;
+
+        width: 30%;
+        height: auto;
+        margin: 5px 0 0 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    .media-heading
+    {
+        font-size: 28px;
+        line-height: 25px;
+
+        position: absolute;
+        left: 7px;
+
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .page-about p
+    {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .desc
+    {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .srvc-thumb .srvc-cap
+    {
+        padding: 0 10px 10px 10px;
+    }
+}

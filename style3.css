@@ -1,0 +1,59 @@
+.submitHeader {
+    margin: 60px 0;
+  }
+  .submitHeader h1 {
+    font-size: 36px;
+  }
+  .submitHeader p {
+    font-size: 18px;
+  }
+  .claimSteps {
+    width: 285px;
+    height: 285px;
+    background-color: #2dccd3;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    display: table;
+  }
+  .claimStepNumber {
+    margin-top: 40px;
+    font-size: 38px;
+    background-color: #ffffff;
+    color: #2dccd3;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    position: absolute;
+    display: table-cell;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+  .claimStepTitle {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 110px;
+  }
+  .claimStepText {
+    text-align: center;
+    margin-left: 33.3%;
+    width: 33.3%;
+  }
+  @media (min-width: 1200px) {
+    .submitHeader {
+      margin: 60px 40px;
+    }
+  }
+  @media (max-width: 991px) {
+    .claimSteps {
+      margin: 30px auto;
+    }
+    .submitHeader {
+      margin-top: 60px;
+      margin-bottom: 0;
+      text-align: center;
+    }
+  }
